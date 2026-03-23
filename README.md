@@ -1,5 +1,6 @@
-# Customer Churn Analysis & Retention Strategy (Python + Power BI)
+#  End-to-end churn analysis using Python with business-focused insights and retention strategy (Python + Power BI)
 ## Overview
+
 
 This project performs an end-to-end analysis of customer churn using the IBM Telco dataset, with a primary focus on Python-based data analysis, feature engineering, and business logic development.
 

@@ -62,8 +62,8 @@ A 4-page interactive dashboard was created to present insights:
 - Churn Drivers
 - Financial Impact
 
-  ![Dashboard Overview](images/executive summary.png)
-![Lifecycle Analysis](images/financial impact.png)
+  ![Dashboard Overview](images/executive_summary.png)
+![Lifecycle Analysis](images/financial_impact.png)
 
 ## Repository Structure
 Customer-Churn-Analysis

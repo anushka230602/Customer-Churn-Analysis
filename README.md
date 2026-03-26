@@ -43,10 +43,19 @@ The focus is on Python-driven analysis to identify churn drivers, high-risk segm
 ![churn Overview](images/correlation_heatmap.png)
   
 ### Feature Engineering
-- num_services → Customer engagement metric
-- High Value Customers → Top ~30% based on monthly charges
-- Tenure Groups → Lifecycle segmentation
-- Customer Segments → Value × Churn classification
+To enhance analytical depth and uncover meaningful patterns, the following features were engineered:
+
+- #### Customer Engagement Score (num_services)
+Aggregated number of services used by each customer to measure engagement level and product adoption.
+![churn Overview](images/churn_by_numservices.png)
+- #### High-Value Customer Segment
+Identified top ~30% customers based on monthly charges to analyze churn behavior among high-revenue users.
+![churn Overview](images/highvalue_churn.png)
+- #### Tenure Segmentation
+Grouped customers into lifecycle stages (e.g., 0–12 months, 12–24 months, 24+ months) to study churn trends across different customer lifespans.
+- #### Customer Segmentation (Value × Churn)
+Classified customers into segments such as High Value–High Risk and Low Value–Low Risk to support targeted retention strategies.
+
 ### Action Framework 
 A rule-based retention model was developed:
 
